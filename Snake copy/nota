@@ -1,0 +1,4 @@
+mov x10, 463 //posicion de la cola 
+  adr x11, tail // puntero a la dirección de memoria de tail (tratamos como un arreglo)
+  sturh w10, [x11, 0] //
+  mov x12, 200
